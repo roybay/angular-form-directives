@@ -1,19 +1,21 @@
-#Setup AngularJS Environment
+Setup AngularJS Environment
+===========================
 
-##Installation
-1.	Download [Node Manager](https://nodejs.org/en/download/)
+Installation
+------------
+0.	Download [Node Manager](https://nodejs.org/en/download/)
 
-1.	Run the node-v4.2.4.pkg
+0.	Run the node-v4.2.4.pkg
 
-1.	Click continue
+0.	Click continue
 
-1.	Click continue
+0.	Click continue
 
-1.	Click Agree
+0.	Click Agree
 
-1.	Select :"Install for all users of this computer" and click continue
+0.	Select :"Install for all users of this computer" and click continue
 
-1.	Click Install
+0.	Click Install
 	
 	It will be installed in /usr/local/bin so make sure 
 
@@ -23,54 +25,56 @@
 
 		npm install --global npm@latest
 	
-1.	Change permission
+0.	Change permission
 
 		sudo chown -R <username e.x:roybay> /usr/local/ 
 
-1.	Install Grunt, Bower Package Manager and Yeoman 
+0.	Install Grunt, Bower Package Manager and Yeoman 
 
 		npm install --global yo bower grunt-cli
 
-1.	Confirm installation 
+0.	Confirm installation 
 
 		yo --version && bower --version && grunt --version
 
-1.	Install Generators
+0.	Install Generators
 
 		npm install --global generator-karma generator-angular 
 	
 		npm install --global phantomjs jasmine-core karma grunt-karma
 
-##Working with Grunt
-1.	Go to the root directory
+Working with Grunt
+------------------
+0.	Go to the root directory
 
-1.	Run the npm 
+0.	Run the npm 
 
 		npm install 
 		
-1.	Run the bower 
+0.	Run the bower 
 
 		bower install 
 		
-1.	Run the Angular application 
+0.	Run the Angular application 
 
 		grunt serve 
 
-1.	Run the karma test
+0.	Run the karma test
 
 		grunt test 
 
-1.	Install packages
+0.	Install packages
 
 		bower install --save  <jquery-ui> 
 
 
 	(bower.json is also be updated because of --save option)
 
-1.	Make the lean version of the application
+0.	Make the lean version of the application
 
 		grunt 
 
-## Installing Protractor for E2E testing
-1) Run
+Installing Protractor for E2E testing
+-------------------------------------
+0. Run
 `npm install grunt-proctractor-runner`
